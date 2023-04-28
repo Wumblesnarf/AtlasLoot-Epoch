@@ -2212,16 +2212,21 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["RagefireChasm"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Taragaman the Hungerer"], ""};
-		{ 2, 14149, "", "=q3=Subterranean Cape", "=ds=#s4#", "", "31.59%"};
-		{ 3, 14148, "", "=q3=Crystalline Cuffs", "=ds=#s8#, #a1#", "", "33.91%"};
-		{ 4, 14145, "", "=q3=Cursed Felblade", "=ds=#h1#, #w10#", "", "15.98%"};
+		{ 2, 14149, "", "=q2=Subterranean Cape", "=ds=#s4#", "", "31.59%"};
+		{ 3, 14148, "", "=q2=Crystalline Cuffs", "=ds=#s8#, #a1#", "", "33.91%"};
+		{ 4, 14145, "", "=q2=Cursed Felblade", "=ds=#h1#, #w10#", "", "15.98%"};
 		{ 5, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#", "", "100%"};
 		{ 7, 0, "INV_Box_01", "=q6="..AL["Zelemar the Wrathful"], ""};
 		{ 8, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
-		{ 17, 14150, "", "=q3=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
-		{ 18, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
-		{ 19, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
+        { 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazzalan"], ""};
+        { 11, 60574, "", "=q2=Satyrchain Epaulets", ""};
+        { 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
+		{ 17, 14150, "", "=q2=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
+		{ 18, 14151, "", "=q2=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
+        { 19, 60570, "", "=q2=Boots of the Manaless", ""};
+        { 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Oggleflint"], ""};
+		{ 21, 14147, "", "=q2=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
+        
 	};
 
 		----------------------

@@ -1263,14 +1263,10 @@ dataSource: Location of the loot table
 function AtlasLoot_GetLODModule(dataSource)
 	if (dataSource=="AtlasLootOriginalWoW") then
 		return "AtlasLoot_OriginalWoW";
-	elseif (dataSource=="AtlasLootBurningCrusade") then
-		return "AtlasLoot_BurningCrusade";
 	elseif (dataSource=="AtlasLootCrafting") then
 		return "AtlasLoot_Crafting";
 	elseif (dataSource=="AtlasLootWorldEvents") then
 		return "AtlasLoot_WorldEvents";
-	elseif (dataSource=="AtlasLootWotLK") then
-		return "AtlasLoot_WrathoftheLichKing";
 	end
 end
 
@@ -1279,19 +1275,13 @@ AtlasLoot_LoadAllModules()
 Used to load all available LoD modules
 ]]
 function AtlasLoot_LoadAllModules()
-	local orig, bc, wotlk, craft, world;
+	local orig, craft, world;
     orig, _ = LoadAddOn("AtlasLoot_OriginalWoW");
-    bc, _ = LoadAddOn("AtlasLoot_BurningCrusade");
     craft, _ = LoadAddOn("AtlasLoot_Crafting");
     world, _ = LoadAddOn("AtlasLoot_WorldEvents");
-    wotlk, _ = LoadAddOn("AtlasLoot_WrathoftheLichKing");
     local flag=0;
 	if not orig then
 		LoadAddOn("AtlasLoot_OriginalWoW");
-		flag=1;
-	end
-	if not bc then
-		LoadAddOn("AtlasLoot_BurningCrusade");
 		flag=1;
 	end
     if not craft then
@@ -1300,10 +1290,6 @@ function AtlasLoot_LoadAllModules()
 	end
     if not world then
 		LoadAddOn("AtlasLoot_WorldEvents");
-		flag=1;
-	end
-    if not wotlk then
-		LoadAddOn("AtlasLoot_WrathoftheLichKing");
 		flag=1;
 	end
 	if flag == 1 then
