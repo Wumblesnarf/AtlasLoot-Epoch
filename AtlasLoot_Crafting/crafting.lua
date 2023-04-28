@@ -216,6 +216,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 21, "s7837", "6371", "=q1=Fire Oil", "=ds="..AL["Trainer"]};
 		{ 22, "s7179", "5996", "=q1=Elixir of Water Breathing", "=ds="..AL["Trainer"]};
 		{ 23, "s7836", "6370", "=q1=Blackmouth Oil", "=ds="..AL["Trainer"]};
+        { 24, "s81520", "60554", "=q2=Crude Philosopher Stone", "=ds="..AL["Vendor"]};
 		Prev = "AlchemyTransmute1";
 		Back = "ALCHEMYMENU";
 	};
