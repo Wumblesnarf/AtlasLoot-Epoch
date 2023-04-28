@@ -469,8 +469,6 @@ end
 
   -- Azuregos
 	AtlasLoot_TableNames["WorldBossesClassic"] = { BabbleBoss["Azuregos"], "AtlasLootOriginalWoW" };
-  -- Kazzak/Doomwalker
-	AtlasLoot_TableNames["WorldBossesBC"] = { BabbleBoss["Doom Lord Kazzak"].." / "..BabbleBoss["Doomwalker"], "AtlasLootBurningCrusade" };
   -- Emrald Dragons
 	AtlasLoot_TableNames["DEmeriss"] = { BabbleBoss["Emeriss"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["DLethon"] = { BabbleBoss["Lethon"], "AtlasLootOriginalWoW" };
@@ -480,16 +478,6 @@ end
 --------------
 --- Events ---
 --------------
-
-  -- Argent Tournament
-	AtlasLoot_TableNames["ArgentTournament1"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["ArgentTournament2"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["ArgentTournament3"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["ArgentTournament4"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["ArgentTournament5"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["ArgentTournament6"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["ArgentTournament7"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["ArgentTournament8"] = { AL["Argent Tournament"], "AtlasLootWorldEvents" };
   -- Abyssal Council
 	AtlasLoot_TableNames["Templars"] = { AL["Abyssal Council"].." - "..AL["Templars"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Dukes"] = { AL["Abyssal Council"].." - "..AL["Dukes"], "AtlasLootWorldEvents" };
@@ -499,15 +487,6 @@ end
 	AtlasLoot_TableNames["Darkmoon2"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Darkmoon3"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Darkmoon4"] = { BabbleFaction["Darkmoon Faire"], "AtlasLootWorldEvents" };
-  -- Ethereum Prison
-	AtlasLoot_TableNames["ArmbreakerHuffaz"] = { AL["Armbreaker Huffaz"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["FelTinkererZortan"] = { AL["Fel Tinkerer Zortan"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["Forgosh"] = { AL["Forgosh"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["Gulbor"] = { AL["Gul'bor"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["MalevustheMad"] = { AL["Malevus the Mad"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["PorfustheGemGorger"] = { AL["Porfus the Gem Gorger"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["WrathbringerLaztarash"] = { AL["Wrathbringer Laz-tarash"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["BashirStasisChambers"] = { AL["Bash'ir Landing Stasis Chambers"], "AtlasLootWorldEvents" };
   -- Seasonal
   --- Brewfest
 	AtlasLoot_TableNames["Brewfest1"] = { AL["Brewfest"], "AtlasLootWorldEvents" };
@@ -543,14 +522,6 @@ end
   --- Pilgrim's Bounty
 	AtlasLoot_TableNames["PilgrimsBounty_A"] = { AL["Pilgrim's Bounty"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["PilgrimsBounty_H"] = { AL["Pilgrim's Bounty"], "AtlasLootWorldEvents" };
-  -- Skettis
-	AtlasLoot_TableNames["DarkscreecherAkkarai"] = { AL["Darkscreecher Akkarai"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["Karrog"] = { AL["Karrog"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["GezzaraktheHuntress"] = { AL["Gezzarak the Huntress"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["VakkiztheWindrager"] = { AL["Vakkiz the Windrager"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["Terokk"] = { AL["Terokk"], "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["SkettisTalonpriestIshaal"] = { "Talonpriest Ishaal", "AtlasLootWorldEvents" };
-	AtlasLoot_TableNames["SkettisHazziksPackage"] = { "Hazzik's Package", "AtlasLootWorldEvents" };
   -- Other
 	AtlasLoot_TableNames["BashirLanding"] = { AL["Bash'ir Landing Skyguard Raid"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["ElementalInvasion"] = { AL["Elemental Invasion"], "AtlasLootWorldEvents" };
@@ -596,35 +567,21 @@ end
 
   -- Alchemy
 	AtlasLoot_TableNames["AlchemyBattleElixir1"] = { ALCHEMY..": "..AL["Battle Elixirs"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyBattleElixir2"] = { ALCHEMY..": "..AL["Battle Elixirs"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyGuardianElixir1"] = { ALCHEMY..": "..AL["Guardian Elixirs"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyPotion1"] = { ALCHEMY..": "..AL["Potions"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyPotion2"] = { ALCHEMY..": "..AL["Potions"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyPotion3"] = { ALCHEMY..": "..AL["Potions"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyTransmute1"] = { ALCHEMY..": "..AL["Transmutes"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyTransmute2"] = { ALCHEMY..": "..AL["Transmutes"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyFlask1"] = { ALCHEMY..": "..AL["Flasks"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyMisc1"] = { ALCHEMY..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["AlchemyMisc2"] = { ALCHEMY..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
   -- BlackSmithing
 	AtlasLoot_TableNames["SmithingArmorOld1"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingArmorOld2"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingArmorOld3"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingArmorOld4"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingArmorOld5"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingArmorBC1"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingArmorBC2"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingArmorBC3"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingArmorWrath1"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingArmorWrath2"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingArmorWrath3"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingArmorWrath4"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingWeaponOld1"] = { BLACKSMITHING..": "..BabbleInventory["Weapon"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingWeaponOld2"] = { BLACKSMITHING..": "..BabbleInventory["Weapon"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingWeaponOld3"] = { BLACKSMITHING..": "..BabbleInventory["Weapon"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingWeaponBC1"] = { BLACKSMITHING..": "..BabbleInventory["Weapon"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingWeaponBC2"] = { BLACKSMITHING..": "..BabbleInventory["Weapon"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["SmithingWeaponWrath1"] = { BLACKSMITHING..": "..BabbleInventory["Weapon"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingEnhancement1"] = { BLACKSMITHING..": "..AL["Item Enhancements"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingEnhancement2"] = { BLACKSMITHING..": "..AL["Item Enhancements"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingMisc1"] = { BLACKSMITHING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
@@ -668,58 +625,6 @@ end
 	AtlasLoot_TableNames["EngineeringWeapon1"] = { ENGINEERING..": "..BabbleInventory["Weapon"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Gnomish1"] = { GNOMISH, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Goblin1"] = { GOBLIN, "AtlasLootCrafting" };
-  -- Inscription
-	AtlasLoot_TableNames["Inscription_OffHand1"] = { INSCRIPTION..": "..AL["Off-Hand Items"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_Reagents1"] = { INSCRIPTION..": "..AL["Reagents"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_Scrolls1"] = { INSCRIPTION..": "..AL["Scrolls"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_Scrolls2"] = { INSCRIPTION..": "..AL["Scrolls"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_Misc1"] = { INSCRIPTION..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_DeathKnightMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_DeathKnightMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_DruidMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_DruidMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_HunterMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_HunterMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_MageMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_MageMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_PaladinMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_PaladinMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_PriestMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_PriestMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_RogueMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_RogueMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_ShamanMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_ShamanMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_WarlockMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_WarlockMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_WarriorMajor1"] = { INSCRIPTION..": "..AL["Major Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["Inscription_WarriorMinor1"] = { INSCRIPTION..": "..AL["Minor Glyph"].." - "..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootCrafting" };
-  -- Jewelcrafting
-	AtlasLoot_TableNames["JewelRed1"] = { JEWELCRAFTING..": "..BabbleInventory["Red"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelRed2"] = { JEWELCRAFTING..": "..BabbleInventory["Red"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelBlue1"] = { JEWELCRAFTING..": "..BabbleInventory["Blue"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelYellow1"] = { JEWELCRAFTING..": "..BabbleInventory["Yellow"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelYellow2"] = { JEWELCRAFTING..": "..BabbleInventory["Yellow"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelGreen1"] = { JEWELCRAFTING..": "..BabbleInventory["Green"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelGreen2"] = { JEWELCRAFTING..": "..BabbleInventory["Green"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelGreen3"] = { JEWELCRAFTING..": "..BabbleInventory["Green"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelOrange1"] = { JEWELCRAFTING..": "..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelOrange2"] = { JEWELCRAFTING..": "..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelOrange3"] = { JEWELCRAFTING..": "..BabbleInventory["Orange"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelPurple1"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelPurple2"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelPurple3"] = { JEWELCRAFTING..": "..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelMeta1"] = { JEWELCRAFTING..": "..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelMeta2"] = { JEWELCRAFTING..": "..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelDragonsEye1"] = { JEWELCRAFTING..": "..AL["Dragon's Eye"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelPrismatic1"] = { JEWELCRAFTING..": "..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelTrinket1"] = { JEWELCRAFTING..": "..BabbleInventory["Trinket"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelRing1"] = { JEWELCRAFTING..": "..BabbleInventory["Ring"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelRing2"] = { JEWELCRAFTING..": "..BabbleInventory["Ring"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelRing3"] = { JEWELCRAFTING..": "..BabbleInventory["Ring"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelNeck1"] = { JEWELCRAFTING..": "..BabbleInventory["Neck"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelNeck2"] = { JEWELCRAFTING..": "..BabbleInventory["Neck"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelMisc1"] = { JEWELCRAFTING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
   -- Leatherworking
 	AtlasLoot_TableNames["LeatherLeatherArmorOld1"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherLeatherArmorOld2"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
@@ -727,18 +632,8 @@ end
 	AtlasLoot_TableNames["LeatherLeatherArmorOld4"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherLeatherArmorOld5"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherLeatherArmorOld6"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherLeatherArmorBC1"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherLeatherArmorBC2"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherLeatherArmorWrath1"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherLeatherArmorWrath2"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherLeatherArmorWrath3"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherMailArmorOld1"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherMailArmorOld2"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherMailArmorBC1"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherMailArmorBC2"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherMailArmorWrath1"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherMailArmorWrath2"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["LeatherMailArmorWrath3"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherCloaks1"] = { LEATHERWORKING..": "..AL["Cloaks"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherItemEnhancement1"] = { LEATHERWORKING..": "..AL["Item Enhancements"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherItemEnhancement2"] = { LEATHERWORKING..": "..AL["Item Enhancements"], "AtlasLootCrafting" };
@@ -758,12 +653,6 @@ end
 	AtlasLoot_TableNames["TailoringArmorOld5"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringArmorOld6"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringArmorOld7"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["TailoringArmorBC1"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["TailoringArmorBC2"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["TailoringArmorBC3"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["TailoringArmorWotLK1"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["TailoringArmorWotLK2"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["TailoringArmorWotLK3"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringBags1"] = { TAILORING..": "..AL["Bags"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringBags2"] = { TAILORING..": "..AL["Bags"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringMisc1"] = { TAILORING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
@@ -781,17 +670,6 @@ end
 	AtlasLoot_TableNames["Cooking6"] = { COOKING, "AtlasLootCrafting" };
   -- First Aid
 	AtlasLoot_TableNames["FirstAid1"] = { FIRSTAID, "AtlasLootCrafting" };
-  -- Daily
-	AtlasLoot_TableNames["CookingDaily1"] = { AL["Cooking Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["CookingDaily2"] = { AL["Cooking Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["FishingDaily1"] = { AL["Fishing Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["FishingDaily2"] = { AL["Fishing Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelcraftingDaily1"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelcraftingDaily2"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelcraftingDaily3"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelcraftingDaily4"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelcraftingDaily5"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
-	AtlasLoot_TableNames["JewelcraftingDaily6"] = { AL["Jewelcrafting Daily"], "AtlasLootCrafting" };
 
 -----------
 --- PvP ---
@@ -822,46 +700,13 @@ end
 	AtlasLoot_TableNames["WSGWeapons_H"] = { BabbleZone["Warsong Gulch"].." "..AL["Weapons"], "AtlasLootOriginalWoW" };  
 	AtlasLoot_TableNames["WSGArmor_H"] = { BabbleZone["Warsong Gulch"].." "..BabbleInventory["Armor"], "AtlasLootOriginalWoW" };  
   -- World PvP
-	AtlasLoot_TableNames["Hellfire"] = { BabbleZone["Hellfire Peninsula"]..": "..AL["Hellfire Fortifications"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["Nagrand1"] = { BabbleZone["Nagrand"]..": "..AL["Halaa"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["Nagrand2"] = { BabbleZone["Nagrand"]..": "..AL["Halaa"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["Terokkar"] = { BabbleZone["Terokkar Forest"]..": "..AL["Spirit Towers"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["Zangarmarsh"] = { BabbleZone["Zangarmarsh"]..": "..AL["Twin Spire Ruins"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["LakeWintergrasp1"] = { BabbleZone["Wintergrasp"].." - "..AL["Accessories"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["LakeWintergrasp2"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["LakeWintergrasp3"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Leather"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["LakeWintergrasp4"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Mail"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["LakeWintergrasp5"] = { BabbleZone["Wintergrasp"].." - "..BabbleInventory["Plate"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["LakeWintergrasp6"] = { BabbleZone["Wintergrasp"].." - "..AL["PVP Gems/Enchants/Jewelcrafting Designs"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["LakeWintergrasp7"] = { BabbleZone["Wintergrasp"].." - "..AL["Heirloom"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["VentureBay1"] = { BabbleZone["Grizzly Hills"]..": "..AL["Venture Bay"], "AtlasLootWotLK" };
   -- Misc Other PvP
 	AtlasLoot_TableNames["PvP60Accessories1_A"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PvP60Accessories2_A"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PvP60Accessories1_H"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PvP60Accessories2_H"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["PvP70Accessories2"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["PvP70Accessories1_A"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["PvP70Accessories1_H"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["PvP70Accessories2"] = { AL["PvP Accessories (Level 70)"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["PvP80Misc"] = { AL["PvP Misc"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP70NonSet1"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Cloth"].."/"..BabbleInventory["Leather"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["PvP70NonSet2"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"].."/"..BabbleInventory["Plate"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["PvP80NonSet1"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP80NonSet2"] = { AL["PvP Non-Set Epics"]..": "..AL["Accessories"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP80NonSet3"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Cloth"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP80NonSet4"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Leather"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP80NonSet5"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Mail"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP80NonSet6"] = { AL["PvP Non-Set Epics"]..": "..BabbleInventory["Plate"], "AtlasLootWotLK" };
 	AtlasLoot_TableNames["PVPWeapons_A"] = { AL["PvP Weapons (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PVPWeapons_H"] = { AL["PvP Weapons (Level 60)"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["PvP80ClassItems1"] = { AL["PvP Class Items"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["PvP80ClassItems2"] = { AL["PvP Class Items"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["WrathfulGladiatorWeapons1"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["WrathfulGladiatorWeapons2"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["WrathfulGladiatorWeapons3"] = { AL["Wrathful Gladiator\'s Weapons"], "AtlasLootWotLK" };
-	AtlasLoot_TableNames["Arena4Weapons1"] = { AL["Arena Season 4 Weapons"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["Arena4Weapons2"] = { AL["Arena Season 4 Weapons"], "AtlasLootBurningCrusade" };
 
 -------------
 --- Other ---
@@ -871,23 +716,14 @@ end
 	AtlasLoot_TableNames["ARENASET"] = { AL["PvP Armor Sets"]..": "..AL["Level 70"], "Menu" };
 	AtlasLoot_TableNames["SETSMISCMENU"] = { AL["Misc Sets"], "Menu" };
 	AtlasLoot_TableNames["SETSCLASSIC"] = { AL["Classic Sets"], "Menu" };
-	AtlasLoot_TableNames["SETSBURNINGCURSADE"] = { AL["Burning Crusade Sets"], "Menu" };
-	AtlasLoot_TableNames["SETSWRATHOFLICHKING"] = { AL["Wrath Of The Lich King Sets"], "Menu" };
 	AtlasLoot_TableNames["CRAFTSET1"] = { AL["Crafted Sets"].." : "..BLACKSMITHING, "Menu" };
 	AtlasLoot_TableNames["CRAFTSET2"] = { AL["Crafted Sets"].." : "..LEATHERWORKING, "Menu" };
 	AtlasLoot_TableNames["CRAFTSET3"] = { AL["Crafted Sets"].." : "..LEATHERWORKING, "Menu" };
 	AtlasLoot_TableNames["CRAFTSET4"] = { AL["Crafted Sets"].." : "..TAILORING, "Menu" };
 	AtlasLoot_TableNames["T0SET"] = { AL["Dungeon 1/2 Sets"], "Menu" };
-	AtlasLoot_TableNames["DS3SET"] = { AL["Dungeon 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["T1T2T3SET"] = { AL["Tier 1/2/3 Sets"], "Menu" };
 	AtlasLoot_TableNames["T3SET"] = { AL["Tier 3 Sets"], "Menu" };
-	AtlasLoot_TableNames["T456SET"] = { AL["Tier 4/5/6 Sets"], "Menu" };
-	AtlasLoot_TableNames["T7T8SET"] = { AL["Tier 7/8 Sets"], "Menu" };
-	AtlasLoot_TableNames["T9SET"] = { AL["Tier 9 Sets"], "Menu" };
-	AtlasLoot_TableNames["T10SET"] = { AL["Tier 10 Sets"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_ORIGINALWOW"] = { AL["Factions - Original WoW"], "Menu" };
-	AtlasLoot_TableNames["REPMENU_BURNINGCRUSADE"] = { AL["Factions - Burning Crusade"], "Menu" };
-	AtlasLoot_TableNames["REPMENU_WOTLK"] = { AL["Factions - Wrath of the Lich King"], "Menu" };
 	AtlasLoot_TableNames["REPMENU"] = { AL["Factions"], "Menu" };
 	AtlasLoot_TableNames["SETMENU"] = { AL["Collections"], "Menu" };
 	AtlasLoot_TableNames["MOUNTMENU"] = { AL["Mounts"], "Menu" };
@@ -895,35 +731,17 @@ end
 	AtlasLoot_TableNames["PVPSET"] = { AL["PvP Armor Sets"]..": "..AL["Level 60"], "Menu" };
 	AtlasLoot_TableNames["PVPMENU"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["PVPMENU2"] = { AL["PvP Rewards"], "Menu" };
-	AtlasLoot_TableNames["WINTERGRASPMENU"] = { BabbleZone["Wintergrasp"], "Menu" };
-	AtlasLoot_TableNames["PVP70RepSET"] = { AL["PvP Reputation Sets"]..": "..AL["Level 70"], "Menu" };
-	AtlasLoot_TableNames["PVP80NONSETEPICS"] = { AL["PvP Non-Set Epics"], "Menu" };
-	AtlasLoot_TableNames["LEVEL80PVPSETS"] = { AL["PvP Armor Sets"]..": "..AL["Level 80"], "Menu" };
-	AtlasLoot_TableNames["70TOKENMENU"] = { AL["Badge of Justice Rewards"], "Menu" };
-	AtlasLoot_TableNames["EMBLEMOFHEROISMMENU"] = { AL["Emblem of Heroism Rewards"], "Menu" };
-	AtlasLoot_TableNames["EMBLEMOFVALORMENU"] = { AL["Emblem of Valor Rewards"], "Menu" };
-	AtlasLoot_TableNames["EMBLEMOFTRIUMPHMENU"] = { AL["Emblem of Triumph Rewards"], "Menu" };
-	AtlasLoot_TableNames["EMBLEMOFCONQUESTMENU"] = { AL["Emblem of Conquest Rewards"], "Menu" };
-	AtlasLoot_TableNames["EMBLEMOFFROSTMENU"] = { AL["Emblem of Frost Rewards"], "Menu" };
 	AtlasLoot_TableNames["WORLDEPICS"] = { AL["BoE World Epics"], "Menu" };
 	AtlasLoot_TableNames["WORLDEVENTMENU"] = { AL["World Events"], "Menu" };
 	AtlasLoot_TableNames["ABYSSALMENU"] = { AL["Abyssal Council"], "Menu" };
-	AtlasLoot_TableNames["ARGENTMENU"] = { AL["Argent Tournament"], "Menu" };
 	AtlasLoot_TableNames["DARKMOONMENU"] = { BabbleFaction["Darkmoon Faire"], "Menu" };
-	AtlasLoot_TableNames["ETHEREUMMENU"] = { AL["Ethereum Prison"], "Menu" };
-	AtlasLoot_TableNames["SKETTISMENU"] = { AL["Skettis"], "Menu" };
 	AtlasLoot_TableNames["CRAFTINGMENU"] = { AL["Crafting"], "Menu" };
 	AtlasLoot_TableNames["ALCHEMYMENU"] = { ALCHEMY, "Menu" };
 	AtlasLoot_TableNames["SMITHINGMENU"] = { BLACKSMITHING, "Menu" };
 	AtlasLoot_TableNames["ENCHANTINGMENU"] = { ENCHANTING, "Menu" };
 	AtlasLoot_TableNames["ENGINEERINGMENU"] = { ENGINEERING, "Menu" };
-	AtlasLoot_TableNames["INSCRIPTIONMENU"] = { INSCRIPTION, "Menu" };
-	AtlasLoot_TableNames["JEWELCRAFTINGMENU"] = { JEWELCRAFTING, "Menu" };
 	AtlasLoot_TableNames["LEATHERWORKINGMENU"] = { LEATHERWORKING, "Menu" };
 	AtlasLoot_TableNames["TAILORINGMENU"] = { TAILORING, "Menu" };
-	AtlasLoot_TableNames["COOKINGDAILYMENU"] = { AL["Cooking Daily"], "Menu" };
-	AtlasLoot_TableNames["FISHINGDAILYMENU"] = { AL["Fishing Daily"], "Menu" };
-	AtlasLoot_TableNames["JEWELCRAFTINGDAILYMENU"] = { AL["Jewelcrafting Daily"], "Menu" };
 	AtlasLoot_TableNames["WishList"] = { AL["Wishlist"], "AtlasLootCharDB" };
 	AtlasLoot_TableNames["SearchResult"] = { AL["Wishlist"], "AtlasLootCharDB" };
   -- If all else fails!
