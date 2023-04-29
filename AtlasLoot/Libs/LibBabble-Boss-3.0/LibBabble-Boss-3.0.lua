@@ -151,7 +151,7 @@ lib:SetBaseTranslations {
 	["Deathstalker Visceri"] = "Deathstalker Visceri",
 	["Deathsworn Captain"] = "Deathsworn Captain",
 	Devastation = "Devastation",
-	["Deviate Faerie Dragon"] = "Deviate Faerie Dragon",
+	["Nyx"] = "Nyx",
 	["Devourer of Souls"] = "Devourer of Souls",
 	["Dextren Ward"] = "Dextren Ward",
 	["Digmaster Shovelphlange"] = "Digmaster Shovelphlange",
