@@ -2219,11 +2219,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 0, "INV_Box_01", "=q6="..AL["Zelemar the Wrathful"], ""};
 		{ 8, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
         { 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazzalan"], ""};
-        { 11, 60574, "", "=q2=Satyrchain Epaulets", ""};
+        { 11, 60574, "", "=q2=Satyrchain Epaulets", "=ds=#s3#", "", ""};
         { 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
 		{ 17, 14150, "", "=q2=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
 		{ 18, 14151, "", "=q2=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
-        { 19, 60570, "", "=q2=Boots of the Manaless", ""};
+        { 19, 60570, "", "=q2=Boots of the Manaless", "=ds=#s12#", "", ""};
         { 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Oggleflint"], ""};
 		{ 21, 14147, "", "=q2=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
         
@@ -3132,6 +3132,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 11, 5192, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", "", "34.96%"};
 		{ 12, 5196, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", "", "33.95%"};
 		{ 13, 7230, "", "=q3=Smite's Mighty Hammer", "=ds=#h2#, #w6#", "", "17.27%"};
+        { 14, 60564, "", "=q2=Wind-Up Cannon", "=ds=#s14#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Cookie"], ""};
 		{ 17, 5197, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", "", "49.62%"};
 		{ 18, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "", "30.90%"};
@@ -3475,9 +3476,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 23, 6627, "", "=q3=Mutant Scale Breastplate", "=ds=#s5#, #a3#", "", "18.33%"};
 		{ 24, 6463, "", "=q3=Deep Fathom Ring", "=ds=#s13#", "", "21.99%"};
 		{ 25, 10441, "", "=q1=Glowing Shard", "=ds=#m2#"};
-		{ 27, 0, "INV_Box_01", "=q6="..BabbleBoss["Deviate Faerie Dragon"], ""};
+		{ 27, 0, "INV_Box_01", "=q6="..BabbleBoss["Nyx"], ""};
 		{ 28, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "37.84%"};
 		{ 29, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "39.65%"};
+        { 30, 60292, "", "=q3=Emerald Amulet", "=ds=#s2#", "", ""};
 		Prev = "WailingCaverns1";
 		Next = "VWOWSets1";
 	};
