@@ -126,61 +126,40 @@ if AL then
 	AL["Search"] = true;
 
 	-- AtlasLoot Browser Menus
-	AL["Classic Instances"] = true;
-	AL["BC Instances"] = true;
+	AL["Dungeons"] = true;
+	AL["Raids"] = true;
 	AL["Sets/Collections"] = true;
 	AL["Reputation Factions"] = true;
-	AL["WotLK Instances"] = true;
 	AL["World Bosses"] = true;
 	AL["Close Menu"] = true;
 
 	-- Crafting Menu
-	AL["Crafting Daily Quests"] = true;
-	AL["Cooking Daily"] = true;
-	AL["Fishing Daily"] = true;
-	AL["Jewelcrafting Daily"] = true;
 	AL["Crafted Sets"] = true;
 	AL["Crafted Epic Weapons"] = true;
-	AL["Dragon's Eye"] = true;
 
 	-- Sets/Collections Menu
-	AL["Badge of Justice Rewards"] = true;
-	AL["Emblem of Valor Rewards"] = true;
-	AL["Emblem of Heroism Rewards"] = true;
-	AL["Emblem of Conquest Rewards"] = true;
-	AL["Emblem of Triumph Rewards"] = true;
-	AL["Emblem of Frost Rewards"] = true;
 	AL["BoE World Epics"] = true;
 	AL["Dungeon 1/2 Sets"] = true;
-	AL["Dungeon 3 Sets"] = true;
 	AL["Legendary Items"] = true;
 	AL["Mounts"] = true;
 	AL["Vanity Pets"] = true;
 	AL["Misc Sets"] = true;
 	AL["Classic Sets"] = true;
-	AL["Burning Crusade Sets"] = true;
-	AL["Wrath Of The Lich King Sets"] = true;
 	AL["Ruins of Ahn'Qiraj Sets"] = true;
 	AL["Temple of Ahn'Qiraj Sets"] = true;
 	AL["Tabards"] = true;
 	AL["Tier 1/2 Sets"] = true;
 	AL["Tier 1/2/3 Sets"] = true;
 	AL["Tier 3 Sets"] = true;
-	AL["Tier 4/5/6 Sets"] = true;
-	AL["Tier 7/8 Sets"] = true;
 	AL["Upper Deck Card Game Items"] = true;
 	AL["Zul'Gurub Sets"] = true;
 
 	-- Factions Menu
 	AL["Original Factions"] = true;
-	AL["BC Factions"] = true;
-	AL["WotLK Factions"] = true;
 
 	-- PvP Menu
 	AL["Arena PvP Sets"] = true;
 	AL["PvP Rewards (Level 60)"] = true;
-	AL["PvP Rewards (Level 70)"] = true;
-	AL["PvP Rewards (Level 80)"] = true;
 	AL["Arathi Basin Sets"] = true;
 	AL["PvP Accessories"] = true;
 	AL["PvP Armor Sets"] = true;
@@ -190,9 +169,6 @@ if AL then
 	AL["Arena PvP Weapons"] = true;
 	AL["PvP Misc"] = true;
 	AL["PVP Gems/Enchants/Jewelcrafting Designs"] = true;
-	AL["Level 80 PvP Sets"] = true;
-	AL["Old Level 80 PvP Sets"] = true;
-	AL["Arena Season 7/8 Sets"] = true;
 	AL["PvP Class Items"] = true;
 	AL["NOT AVAILABLE ANYMORE"] = true;
 

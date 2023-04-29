@@ -27,56 +27,56 @@ AtlasLoot_DewDropDown = {
 			[4] = {
 				{ BabbleZone["Upper Blackrock Spire"], "UpperBlackrock", "Submenu" },
 			},
-			[6] = {
+			[5] = {
 				{ BabbleZone["The Deadmines"], "TheDeadmines1", "Table" },
 			},
-			[7] = {
+			[6] = {
 				[BabbleZone["Dire Maul"]] = {
 					{ BabbleZone["Dire Maul (East)"], "DireMaulEast", "Submenu" },
 					{ BabbleZone["Dire Maul (West)"], "DireMaulWest", "Submenu" },
 					{ BabbleZone["Dire Maul (North)"], "DireMaulNorth", "Submenu" },
 				},
 			},
-			[8] = {
+			[7] = {
 				{ BabbleZone["Gnomeregan"], "Gnomeregan1", "Table" },
 			},
-			[9] = {
+			[8] = {
 				{ BabbleZone["Maraudon"], "Maraudon1", "Table" },
 			},
-			[10] = {
+			[9] = {
 				{ BabbleZone["Ragefire Chasm"], "RagefireChasm", "Table" },
 			},
-			[11] = {
+			[10] = {
 				{ BabbleZone["Razorfen Downs"], "RazorfenDowns1", "Table" },
 			},
-			[12] = {
+			[11] = {
 				{ BabbleZone["Razorfen Kraul"], "RazorfenKraul1", "Table" },
 			},
-			[13] = {
+			[12] = {
 				{ BabbleZone["Scarlet Monastery"], "Scarlet Monastery", "Submenu" },
 			},
-			[14] = {
+			[13] = {
 				{ BabbleZone["Scholomance"], "Scholomance", "Submenu" },
 			},
-			[15] = {
+			[14] = {
 				{ BabbleZone["Shadowfang Keep"], "ShadowfangKeep1", "Table" },
 			},
-			[16] = {
+			[15] = {
 				{ BabbleZone["The Stockade"], "TheStockade", "Table" },
 			},
-			[17] = {
+			[16] = {
 				{ BabbleZone["Stratholme"], "Stratholme", "Submenu" },
 			},
-			[18] = {
+			[17] = {
 				{ BabbleZone["The Temple of Atal'Hakkar"], "SunkenTemple", "Submenu" },
 			},
-			[19] = {
+			[18] = {
 				{ BabbleZone["Uldaman"], "Uldaman", "Submenu" },
 			},
-			[20] = {
+			[19] = {
 				{ BabbleZone["Wailing Caverns"], "WailingCaverns1", "Table" },
 			},
-			[21] = {
+			[20] = {
 				{ BabbleZone["Zul'Farrak"], "ZulFarrak", "Submenu" },
 			},
 		},
