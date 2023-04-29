@@ -7,12 +7,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "SMITHINGMENU", "Trade_BlackSmithing", "=ds="..GetSpellInfo(2018), ""};
 		{ 4, "ENCHANTINGMENU", "Trade_Engraving", "=ds="..GetSpellInfo(7411), ""};
 		{ 5, "ENGINEERINGMENU", "Trade_Engineering", "=ds="..GetSpellInfo(4036), ""};
-		{ 6, "INSCRIPTIONMENU", "INV_Inscription_Tradeskill01", "=ds="..GetSpellInfo(45357), ""};
-		{ 8, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
-		{ 9, "Mining1", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
-		{ 10, "TAILORINGMENU", "Trade_Tailoring", "=ds="..GetSpellInfo(3908), ""};
-		{ 12, "Cooking1", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
-		{ 13, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
+		{ 6, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
+		{ 7, "Mining1", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
+		{ 8, "TAILORINGMENU", "Trade_Tailoring", "=ds="..GetSpellInfo(3908), ""};
+		{ 10, "Cooking1", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
+		{ 11, "FirstAid1", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
 		{ 17, "CRAFTSET1", "INV_Box_01", AL["Crafted Sets"], ""};
 		{ 18, "CraftedWeapons1", "INV_Sword_1H_Blacksmithing_02", AL["Crafted Epic Weapons"], ""};
 	};
