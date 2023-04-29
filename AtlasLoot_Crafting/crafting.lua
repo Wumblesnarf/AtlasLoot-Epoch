@@ -82,7 +82,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 9, "s11461", "9155", "=q1=Arcane Elixir", "=ds="..AL["Trainer"]};
 		{ 16, "s21923", "17708", "=q1=Elixir of Frost Power", "=ds="..AL["Feast of Winter Veil"]};
 		{ 17, "s11449", "8949", "=q1=Elixir of Agility", "=ds="..AL["Trainer"]};
-		{ 18, "s63732", "45621", "=q1=Elixir of Minor Accuracy", "=ds="};
+		{ 18, "s63732", "45621", "=q1=Elixir of Accuracy", "=ds="..AL["Trainer"]};
 		{ 19, "s3188", "3391", "=q1=Elixir of Ogre's Strength", "=ds="..AL["World Drop"]};
 		{ 20, "s2333", "3390", "=q1=Elixir of Lesser Agility", "=ds="..AL["World Drop"]};
 		{ 21, "s7845", "6373", "=q1=Elixir of Firepower", "=ds="..AL["Trainer"]};
