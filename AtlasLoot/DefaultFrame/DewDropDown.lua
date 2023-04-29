@@ -14,7 +14,7 @@ local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 --Entries have the text to display, loot table or sub table to link to and if the link is to a loot table or sub table
 AtlasLoot_DewDropDown = {
 	[1] = {
-		[AL["Classic Instances"]] = {
+		[AL["Dungeons"]] = {
 			[1] = {
 				{ BabbleZone["Blackfathom Deeps"], "BlackfathomDeeps1", "Table" },
 			},
@@ -26,9 +26,6 @@ AtlasLoot_DewDropDown = {
 			},
 			[4] = {
 				{ BabbleZone["Upper Blackrock Spire"], "UpperBlackrock", "Submenu" },
-			},
-			[5] = {
-				{ BabbleZone["Blackwing Lair"], "BlackwingLair", "Submenu" },
 			},
 			[6] = {
 				{ BabbleZone["The Deadmines"], "TheDeadmines1", "Table" },
@@ -47,211 +44,81 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["Maraudon"], "Maraudon1", "Table" },
 			},
 			[10] = {
-				{ BabbleZone["Molten Core"], "MoltenCore", "Submenu" },
-			},
-			[11] = {
 				{ BabbleZone["Ragefire Chasm"], "RagefireChasm", "Table" },
 			},
-			[12] = {
+			[11] = {
 				{ BabbleZone["Razorfen Downs"], "RazorfenDowns1", "Table" },
 			},
-			[13] = {
+			[12] = {
 				{ BabbleZone["Razorfen Kraul"], "RazorfenKraul1", "Table" },
 			},
-			[14] = {
-				{ BabbleZone["Ruins of Ahn'Qiraj"], "RuinsofAQ", "Submenu" },
-			},
-			[15] = {
+			[13] = {
 				{ BabbleZone["Scarlet Monastery"], "Scarlet Monastery", "Submenu" },
 			},
-			[16] = {
+			[14] = {
 				{ BabbleZone["Scholomance"], "Scholomance", "Submenu" },
 			},
-			[17] = {
+			[15] = {
 				{ BabbleZone["Shadowfang Keep"], "ShadowfangKeep1", "Table" },
 			},
-			[18] = {
+			[16] = {
 				{ BabbleZone["The Stockade"], "TheStockade", "Table" },
 			},
-			[19] = {
+			[17] = {
 				{ BabbleZone["Stratholme"], "Stratholme", "Submenu" },
 			},
-			[20] = {
-				{ BabbleZone["Temple of Ahn'Qiraj"], "TempleofAQ", "Submenu" },
-			},
-			[21] = {
+			[18] = {
 				{ BabbleZone["The Temple of Atal'Hakkar"], "SunkenTemple", "Submenu" },
 			},
-			[22] = {
+			[19] = {
 				{ BabbleZone["Uldaman"], "Uldaman", "Submenu" },
 			},
-			[23] = {
+			[20] = {
 				{ BabbleZone["Wailing Caverns"], "WailingCaverns1", "Table" },
 			},
-			[24] = {
+			[21] = {
 				{ BabbleZone["Zul'Farrak"], "ZulFarrak", "Submenu" },
 			},
-			[25] = {
+		},
+	},
+    [2] = { 
+        [AL["Raids"]] = {
+			[1] = {
+				{ BabbleZone["Molten Core"], "MoltenCore", "Submenu" },
+			},
+            --onyxia (tbd)
+			[2] = {
+				{ BabbleZone["Blackwing Lair"], "BlackwingLair", "Submenu" },
+			},
+			[3] = {
 				{ BabbleZone["Zul'Gurub"], "ZulGurub", "Submenu" },
 			},
-		},
-	},
-	[2] = {
-		[AL["BC Instances"]] = {
-			[1] = {
-				[BabbleZone["Auchindoun"]] = {
-					{ BabbleZone["Mana-Tombs"], "AuchManaTombs", "Submenu" },
-					{ BabbleZone["Auchenai Crypts"], "AuchCrypts", "Submenu" },
-					{ BabbleZone["Sethekk Halls"], "AuchSethekk", "Submenu" },
-					{ BabbleZone["Shadow Labyrinth"], "AuchShadowLab", "Submenu" },
-				}, 
-			},
-			[2] = {
-				{ BabbleZone["Black Temple"], "BlackTemple", "Submenu" },
-			},
-			[3] = {
-				[BabbleZone["Caverns of Time"]] = {
-					{ BabbleZone["Old Hillsbrad Foothills"], "CoTOldHillsbrad", "Submenu" },
-					{ BabbleZone["The Black Morass"], "CoTBlackMorass", "Submenu" },
-					{ BabbleZone["Hyjal Summit"], "CoTHyjal", "Submenu" },
-				},
-			},
 			[4] = {
-				[BabbleZone["Coilfang Reservoir"]] = {
-					{ BabbleZone["The Slave Pens"], "CFRSlavePens", "Submenu" },
-					{ BabbleZone["The Underbog"], "CFRUnderbog", "Submenu" },
-					{ BabbleZone["The Steamvault"], "CFRSteamvault", "Submenu" },
-					{ BabbleZone["Serpentshrine Cavern"], "CFRSerpentshrine", "Submenu" },
-				},
+				{ BabbleZone["Temple of Ahn'Qiraj"], "TempleofAQ", "Submenu" },
 			},
 			[5] = {
-				{ BabbleZone["Gruul's Lair"], "Gruul", "Submenu" },
+				{ BabbleZone["Ruins of Ahn'Qiraj"], "RuinsofAQ", "Submenu" },
 			},
-			[6] = {
-				[BabbleZone["Hellfire Citadel"]] = {
-					{ BabbleZone["Hellfire Ramparts"], "HCRamparts", "Submenu" },
-					{ BabbleZone["The Blood Furnace"], "HCFurnace", "Submenu" },
-					{ BabbleZone["The Shattered Halls"], "HCShatteredHalls", "Submenu" },
-					{ BabbleZone["Magtheridon's Lair"], "HCMagtheridon", "Table" },
-				}, 
-			},
-			[7] = {
-				{ BabbleZone["Karazhan"], "Karazhan", "Submenu" },
-			},
-			[8] = {
-				{ BabbleZone["Magisters' Terrace"], "MagistersTerrace", "Submenu" },
-			},
-			[9] = {
-				{ BabbleZone["Sunwell Plateau"], "SunwellPlateau", "Submenu" },
-			},
-			[10] = {
-				[BabbleZone["Tempest Keep"]] = {
-					{ BabbleZone["The Mechanar"], "TKMech", "Submenu" },
-					{ BabbleZone["The Botanica"], "TKBot", "Submenu" },
-					{ BabbleZone["The Arcatraz"], "TKArc", "Submenu" },
-					{ BabbleZone["The Eye"], "TKEye", "Submenu" },
-				},
-			},
-			[11] = {
-				{ BabbleZone["Zul'Aman"], "ZulAman", "Submenu" },
-			},
-		},
-	},
+            --naxx (tbd)
+        },
+    },
+
 	[3] = {
-		[AL["WotLK Instances"]] = {
-			[1] = {
-				{ BabbleZone["Ahn'kahet: The Old Kingdom"], "Ahnkahet", "Submenu" },
-			},
-			[2] = {
-				{ BabbleZone["Azjol-Nerub"], "AzjolNerub", "Submenu" },
-			},
-			[3] = {
-				{ BabbleZone["Caverns of Time"]..": "..BabbleZone["The Culling of Stratholme"], "CoTStratholme", "Submenu" },
-			},
-			[4] = {
-				{ BabbleZone["Drak'Tharon Keep"], "DrakTharonKeep", "Submenu" },
-			},
-			[5] = {
-				{ BabbleZone["Gundrak"], "Gundrak", "Submenu" },
-			},
-			[6] = {
-				{ BabbleZone["Halls of Lightning"], "HallsofLightning", "Submenu" },
-			},
-			[7] = {
-				{ BabbleZone["Halls of Stone"], "HallsofStone", "Submenu" },
-			},
-			[8] = {
-				{ BabbleZone["Halls of Reflection"], "HallsofReflection", "Submenu" },
-			},
-			[9] = {
-				{ BabbleZone["Icecrown Citadel"], "IcecrownCitadel", "Submenu" },
-			},
-			[10] = {
-				{ BabbleZone["Naxxramas"], "Naxxramas80", "Submenu" },
-			},
-			[11] = {
-				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
-			},
-            [12] = {
-				{ BabbleZone["Pit of Saron"], "PitofSaron", "Submenu" },
-			},
-            [13] = {
-				{ BabbleZone["The Ruby Sanctum"], "Halion", "Table" },
-			},
-			[14] = {
-				{ BabbleZone["The Eye of Eternity"], "Malygos", "Table" },
-			},
-            [15] = {
-				{ BabbleZone["The Forge of Souls"], "ForgeofSouls", "Submenu" },
-			},
-			[16] = {
-				{ BabbleZone["The Nexus"], "TheNexus", "Submenu" },
-			},
-			[17] = {
-				{ BabbleZone["The Obsidian Sanctum"], "Sartharion", "Table" },
-			},
-			[18] = {
-				{ BabbleZone["The Oculus"], "TheOculus", "Submenu" },
-			},
-			[19] = {
-				{ BabbleZone["Trial of the Champion"], "TrialoftheChampion", "Submenu" },
-			},
-			[20] = {
-				{ BabbleZone["Trial of the Crusader"], "TrialoftheCrusader_A", "Submenu" },
-			},
-			[21] = {
-				{ BabbleZone["Ulduar"], "Ulduar", "Submenu" },
-			},
-			[22] = {
-				{ BabbleZone["Utgarde Keep"], "UtgardeKeep", "Submenu" },
-			},
-			[23] = {
-				{ BabbleZone["Utgarde Pinnacle"], "UtgardePinnacle", "Submenu" },
-			},
-			[24] = {
-				{ BabbleZone["Vault of Archavon"], "VaultofArchavon_A", "Submenu" },
-			},
-			[25] = {
-				{ BabbleZone["The Violet Hold"], "TheVioletHold", "Submenu" },
-			},
-		},
-	},
-	[4] = {
 		{ AL["Crafting"], "CRAFTINGMENU", "Table" },
 	},
-	[5] = {
+	[4] = {
 		{ AL["Sets/Collections"], "SETMENU", "Table" },
 	},
-	[6] = {
+	[5] = {
 		{ AL["PvP Rewards"], "PVPMENU", "Table" },
 	},
-	[7] = {
+	[6] = {
 		{ AL["World Bosses"], "WorldBosses", "Submenu" },
 	},
-	[8] = {
+	[7] = {
 		{ AL["Reputation Factions"], "REPMENU", "Table" },
 	},
-	[9] = {
+	[8] = {
 		{ AL["World Events"], "WORLDEVENTMENU", "Table" },
 	},
 };
@@ -466,26 +333,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Trash Mobs"], "ZGTrash1" },
 		{ AL["ZG Enchants"], "ZGEnchants" },
 	},
-	["CoTOldHillsbrad"] = {
-		{ "", "CoTHillsbradDrake" },
-		{ "", "CoTHillsbradSkarloc" },
-		{ "", "CoTHillsbradHunter" },
-		{ AL["Trash Mobs"], "CoTTrash" },
-	},
-	["CoTBlackMorass"] = {
-		{ "", "CoTMorassDeja" },
-		{ "", "CoTMorassTemporus" },
-		{ "", "CoTMorassAeonus" },
-		{ AL["Trash Mobs"], "CoTTrash" },
-	},
-	["CoTHyjal"] = {
-		{ "", "MountHyjalWinterchill" },
-		{ "", "MountHyjalAnetheron" },
-		{ "", "MountHyjalKazrogal" },
-		{ "", "MountHyjalAzgalor" },
-		{ "", "MountHyjalArchimonde" },
-		{ AL["Trash Mobs"], "MountHyjalTrash" },
-	},
 	["DireMaulEast"] = {
 		{ BabbleBoss["Pusillin"], "DMEPusillin" },
 		{ BabbleBoss["Zevrim Thornhoof"], "DMEZevrimThornhoof" },
@@ -560,327 +407,5 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BabbleBoss["Chief Ukorz Sandscalp"], "ZFChiefUkorzSandscalp" },
 		{ BabbleBoss["Zerillis"], "ZFZerillis" },
 		{ AL["Trash Mobs"], "ZFTrash" },
-	},
-	["AuchManaTombs"] = {
-		{ "", "AuchManaPandemonius" },
-		{ "", "AuchManaTavarok" },
-		{ "", "AuchManaNexusPrince" },
-		{ "", "AuchManaYor" },
-		{ AL["Trash Mobs"], "AuchTrash" },
-	},
-	["AuchCrypts"] = {
-		{ "", "AuchCryptsShirrak" },
-		{ "", "AuchCryptsExarch" },
-		{ "", "AuchCryptsAvatar" },
-		{ AL["Trash Mobs"], "AuchTrash" },
-	},
-	["AuchSethekk"] = {
-		{ "", "AuchSethekkDarkweaver" },
-		{ "", "AuchSethekkTalonKing" },
-		{ "", "AuchSethekkRavenGod" },
-		{ AL["Trash Mobs"], "AuchTrash" },
-	},
-	["AuchShadowLab"] = {
-		{ "", "AuchShadowHellmaw" },
-		{ "", "AuchShadowBlackheart" },
-		{ "", "AuchShadowGrandmaster" },
-		{ "", "AuchShadowMurmur" },
-		{ AL["Trash Mobs"], "AuchTrash" },
-	},
-	["BlackTemple"] = {
-		{ "", "BTNajentus" },
-		{ "", "BTSupremus" },
-		{ "", "BTAkama" },
-		{ "", "BTGorefiend" },
-		{ "", "BTBloodboil" },
-		{ "", "BTEssencofSouls" },
-		{ "", "BTShahraz" },
-		{ "", "BTCouncil" },
-		{ "", "BTIllidanStormrage" },
-		{ AL["BT Patterns/Plans"], "BTPatterns" },
-		{ AL["Trash Mobs"], "BTTrash" },
-	},
-	["CFRSlavePens"] = {
-		{ "", "CFRSlaveMennu" },
-		{ "", "CFRSlaveRokmar" },
-		{ "", "CFRSlaveQuagmirran" },
-		{ "", "LordAhune" },
-	},
-	["CFRUnderbog"] = {
-		{ "", "CFRUnderHungarfen" },
-		{ "", "CFRUnderGhazan" },
-		{ "", "CFRUnderSwamplord" },
-		{ "", "CFRUnderStalker" },
-	},
-	["CFRSteamvault"] = {
-		{ "", "CFRSteamThespia" },
-		{ "", "CFRSteamSteamrigger" },
-		{ "", "CFRSteamWarlord" },
-		{ AL["Trash Mobs"], "CFRSteamTrash" },
-	},
-	["CFRSerpentshrine"] = {
-		{ "", "CFRSerpentHydross" },
-		{ "", "CFRSerpentLurker" },
-		{ "", "CFRSerpentLeotheras" },
-		{ "", "CFRSerpentKarathress" },
-		{ "", "CFRSerpentMorogrim" },
-		{ "", "CFRSerpentVashj" },
-		{ AL["Trash Mobs"], "CFRSerpentTrash" },
-	},
-	["Gruul"] = {
-		{ "", "GruulsLairHighKingMaulgar" },
-		{ "", "GruulGruul" },
-	},
-	["HCRamparts"] = {
-		{ "", "HCRampWatchkeeper" },
-		{ "", "HCRampOmor" },
-		{ "", "HCRampVazruden" },
-	},
-	["HCFurnace"] = {
-		{ "", "HCFurnaceMaker" },
-		{ "", "HCFurnaceBroggok" },
-		{ "", "HCFurnaceBreaker" },
-	},
-	["HCShatteredHalls"] = {
-		{ "", "HCHallsNethekurse" },
-		{ "", "HCHallsPorung" },
-		{ "", "HCHallsOmrogg" },
-		{ "", "HCHallsKargath" },
-		{ AL["Trash Mobs"], "HCHallsTrash" },
-	},
-	["TKMech"] = {
-		{ "", "TKMechCacheoftheLegion" },
-		{ "", "TKMechCapacitus" },
-		{ "", "TKMechSepethrea" },
-		{ "", "TKMechCalc" },
-		{ AL["Trash Mobs"], "TKTrash" },
-	},
-	["TKBot"] = {
-		{ "", "TKBotSarannis" },
-		{ "", "TKBotFreywinn" },
-		{ "", "TKBotThorngrin" },
-		{ "", "TKBotLaj" },
-		{ "", "TKBotSplinter" },
-		{ AL["Trash Mobs"], "TKTrash" },
-	},
-	["TKArc"] = {
-		{ "", "TKArcUnbound" },
-		{ "", "TKArcScryer" },
-		{ "", "TKArcDalliah" },
-		{ "", "TKArcHarbinger" },
-		{ AL["Trash Mobs"], "TKTrash" },
-	},
-	["TKEye"] = {
-		{ "", "TKEyeAlar" },
-		{ "", "TKEyeVoidReaver" },
-		{ "", "TKEyeSolarian" },
-		{ "", "TKEyeKaelthas" },
-		{ "", "TKEyeLegendaries" },
-		{ AL["Trash Mobs"], "TKEyeTrash" },
-	},
-	["ZulAman"] = {
-		{ "", "ZANalorakk" },
-		{ "", "ZAAkilZon" },
-		{ "", "ZAJanAlai" },
-		{ "", "ZAHalazzi" },
-		{ "", "ZAMalacrass" },
-		{ "", "ZAZuljin" },
-		{ AL["Timed Reward Chest"], "ZATimedChest" },
-		{ AL["Trash Mobs"], "ZATrash" },
-	},
-	["SunwellPlateau"] = {
-		{ "", "SPKalecgos" },
-		{ "", "SPBrutallus" },
-		{ "", "SPFelmyst" },
-		{ "", "SPEredarTwins" },
-		{ "", "SPMuru" },
-		{ "", "SPKiljaeden" },
-		{ "", "SPPatterns" },
-		{ AL["Trash Mobs"], "SPTrash" },
-	},
-	["Ahnkahet"] = {
-		{ "", "AhnkahetNadox" },
-		{ "", "AhnkahetTaldaram" },
-		{ "", "AhnkahetAmanitarHEROIC" },
-		{ "", "AhnkahetJedoga" },
-		{ "", "AhnkahetVolazj" },
-		{ "", "AhnkahetTrash" },
-	},
-	["AzjolNerub"] = {
-		{ "", "AzjolNerubKrikthir" },
-		{ "", "AzjolNerubHadronox" },
-		{ "", "AzjolNerubAnubarak" },
-		{ "", "AzjolNerubTrash" },
-	},
-	["CoTStratholme"] = {
-		{ "", "CoTStratholmeMeathook" },
-		{ "", "CoTStratholmeEpoch" },
-		{ "", "CoTStratholmeSalramm" },
-		{ "", "CoTStratholmeInfiniteCorruptorHEROIC" },
-		{ "", "CoTStratholmeMalGanis" },
-		{ "", "CoTStratholmeTrash" },
-	},
-	["DrakTharonKeep"] = {
-		{ "", "DrakTharonKeepTrollgore" },
-		{ "", "DrakTharonKeepNovos" },
-		{ "", "DrakTharonKeepKingDred" },
-		{ "", "DrakTharonKeepTharonja" },
-		{ "", "DrakTharonKeepTrash" },
-	},
-	["Gundrak"] = {
-		{ "", "GundrakSladran" },
-		{ "", "GundrakColossus" },
-		{ "", "GundrakMoorabi" },
-		{ "", "GundrakEckHEROIC" },
-		{ "", "GundrakGaldarah" },
-		{ "", "GundrakTrash" },
-	},
-	["HallsofLightning"] = {
-		{ "", "HallsofLightningBjarngrim" },
-		{ "", "HallsofLightningVolkhan" },
-		{ "", "HallsofLightningIonar" },
-		{ "", "HallsofLightningLoken" },
-		{ "", "HallsofLightningTrash" },
-	},
-	["HallsofStone"] = {
-		{ "", "HallsofStoneMaiden" },
-		{ "", "HallsofStoneKrystallus" },
-		{ "", "HallsofStoneTribunal" },
-		{ "", "HallsofStoneSjonnir" },
-		{ "", "HallsofStoneTrash" },
-	},
-	["Ulduar"] = {
-		{ "", "UlduarLeviathan" },
-		{ "", "UlduarIgnis" },
-		{ "", "UlduarRazorscale" },
-		{ "", "UlduarDeconstructor" },
-		{ "", "UlduarIronCouncil" },
-		{ "", "UlduarKologarn" },
-		{ "", "UlduarAlgalon" },
-		{ "", "UlduarAuriaya" },
-		{ "", "UlduarHodir" },
-		{ "", "UlduarThorim" },
-		{ "", "UlduarFreya" },
-		{ "", "UlduarMimiron" },
-		{ "", "UlduarVezax" },
-		{ "", "UlduarYoggSaron" },
-		{ "", "UlduarTrash" },
-		{ "", "UlduarPatterns" },
-	},
-	["UtgardeKeep"] = {
-		{ "", "UtgardeKeepKeleseth" },
-		{ "", "UtgardeKeepSkarvald" },
-		{ "", "UtgardeKeepIngvar" },
-		{ "", "UtgardeKeepTrash" },
-	},
-	["UtgardePinnacle"] = {
-		{ "", "UPSkadi" },
-		{ "", "UPYmiron" },
-		{ "", "UPSorrowgrave" },
-		{ "", "UPPalehoof" },
-		{ "", "UPTrash" },
-	},
-	["TheVioletHold"] = {
-		{ "", "VioletHoldErekem" },
-		{ "", "VioletHoldZuramat" },
-		{ "", "VioletHoldXevozz" },
-		{ "", "VioletHoldIchoron" },
-		{ "", "VioletHoldMoragg" },
-		{ "", "VioletHoldLavanthor" },
-		{ "", "VioletHoldCyanigosa" },
-		{ "", "VioletHoldTrash" },
-	},
-	["TheOculus"] = {
-		{ "", "OcuDrakos" },
-		{ "", "OcuUrom" },
-		{ "", "OcuCloudstrider" },
-		{ "", "OcuEregos" },
-		{ "", "OcuTrash" },
-	},
-	["TrialoftheChampion"] = {
-		{ "", "TrialoftheChampionChampions" },
-		{ "", "TrialoftheChampionConfessorPaletress" },
-		{ "", "TrialoftheChampionEadricthePure" },
-		{ "", "TrialoftheChampionBlackKnight" },
-	},
-	["TrialoftheCrusader_A"] = {
-		{ BabbleBoss["The Beasts of Northrend"], "TrialoftheCrusaderNorthrendBeasts_A" },
-		{ BabbleBoss["Lord Jaraxxus"], "TrialoftheCrusaderLordJaraxxus_A" },
-		{ AL["Faction Champions"], "TrialoftheCrusaderFactionChampions_A" },
-		{ BabbleBoss["The Twin Val'kyr"], "TrialoftheCrusaderTwinValkyrs_A" },
-		{ BabbleBoss["Anub'arak"], "TrialoftheCrusaderAnubarak_A" },
-		{ AL["Tribute Run"], "TrialoftheCrusaderTributeHEROIC_A" },
-		{ AL["Trial of the Crusader Patterns/Plans"], "TrialoftheCrusaderPatterns_A" },
-	},
-	["VaultofArchavon_A"] = {
-		{ BabbleBoss["Archavon the Stone Watcher"], "VaultofArchavonArchavon1" },
-		{ BabbleBoss["Emalon the Storm Watcher"], "VaultofArchavonEmalon1" },
-		{ BabbleBoss["Koralon the Flame Watcher"], "VaultofArchavonKoralon1_A" },
-		{ BabbleBoss["Toravon the Ice Watcher"], "VaultofArchavonToravon1" },
-	},
-	["Naxxramas80"] = {
-		{ AtlasLoot_TableNames["Naxx80Patchwerk"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Patchwerk" },
-		{ AtlasLoot_TableNames["Naxx80Grobbulus"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Grobbulus" },
-		{ AtlasLoot_TableNames["Naxx80Gluth1"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Gluth1" },
-		{ AtlasLoot_TableNames["Naxx80Thaddius"][1].." ("..AL["Construct Quarter"]..")", "Naxx80Thaddius" },
-		{ AtlasLoot_TableNames["Naxx80AnubRekhan"][1].." ("..AL["Arachnid Quarter"]..")", "Naxx80AnubRekhan" },
-		{ AtlasLoot_TableNames["Naxx80Faerlina"][1].." ("..AL["Arachnid Quarter"]..")", "Naxx80Faerlina" },
-		{ AtlasLoot_TableNames["Naxx80Maexxna"][1].." ("..AL["Arachnid Quarter"]..")", "Naxx80Maexxna" },
-		{ AtlasLoot_TableNames["Naxx80Razuvious"][1].." ("..AL["Military Quarter"]..")", "Naxx80Razuvious" },
-		{ AtlasLoot_TableNames["Naxx80Gothik"][1].." ("..AL["Military Quarter"]..")", "Naxx80Gothik" },
-		{ AtlasLoot_TableNames["Naxx80FourHorsemen"][1].." ("..AL["Military Quarter"]..")", "Naxx80FourHorsemen" },
-		{ AtlasLoot_TableNames["Naxx80Noth"][1].." ("..AL["Plague Quarter"]..")", "Naxx80Noth" },
-		{ AtlasLoot_TableNames["Naxx80Heigan"][1].." ("..AL["Plague Quarter"]..")", "Naxx80Heigan" },
-		{ AtlasLoot_TableNames["Naxx80Loatheb"][1].." ("..AL["Plague Quarter"]..")", "Naxx80Loatheb" },
-		{ AtlasLoot_TableNames["Naxx80Sapphiron"][1].." ("..AL["Frostwyrm Lair"]..")", "Naxx80Sapphiron" },
-		{ AtlasLoot_TableNames["Naxx80KelThuzad"][1].." ("..AL["Frostwyrm Lair"]..")", "Naxx80KelThuzad" },
-		{ "", "Naxx80Trash" },
-	},
-	["TheNexus"] = {
-		{ "", "TheNexusTelestra" },
-		{ "", "TheNexusAnomalus"},
-		{ "", "TheNexusOrmorok" },
-		{ "", "TheNexusKolurgStoutbeardHEROIC"},
-		{ "", "TheNexusKeristrasza" },
-	},
-	["WorldBosses"] = {
-		{ "", "WorldBossesClassic" },
-		{ "", "WorldBossesBC"},
-		{ "", "DEmeriss" },
-		{ "", "DLethon"},
-		{ "", "DTaerar" },
-		{ "", "DYsondre" },
-	},
-	["ForgeofSouls"] = {
-		{ "", "FoSBronjahm" },
-		{ "", "FoSDevourer" },
-		{ "", "FHTrashMobs" },
-	},
-	["PitofSaron"] = {
-		{ "", "PoSGarfrost" },
-		{ "", "PoSKrickIck" },
-		{ "", "PoSTyrannus" },
-		{ "", "FHTrashMobs" },
-	},
-	["HallsofReflection"] = {
-		{ "", "HoRFalric" },
-		{ "", "HoRMarwyn" },
-		{ "", "HoRLichKing" },
-		{ "", "FHTrashMobs" },
-	},
-	["IcecrownCitadel"] = {
-		{ "", "ICCLordMarrowgar" },
-		{ "", "ICCLadyDeathwhisper" },
-		{ "", "ICCGunshipBattle" },
-		{ "", "ICCSaurfang" },
-		{ "", "ICCFestergut" },
-		{ "", "ICCRotface" },
-		{ "", "ICCPutricide" },
-		{ "", "ICCCouncil" },
-		{ "", "ICCLanathel" },
-		{ "", "ICCValithria" },
-		{ "", "ICCSindragosa" },
-		{ "", "ICCLichKing" },
-		{ "", "ICCTrash25Man" },
 	},
 };
